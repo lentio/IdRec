@@ -1,0 +1,25 @@
+﻿Build started 2014/6/26 10:19:00.
+     1>Project "D:\Project\ocr\IdRec\IdRec\IdRec.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\IdRec.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Project\Common\tesseract-3.02.02\include\tesseract" /I"D:\Project\Common\opencv-2.4.8\build\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\IdRec.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Utility.cpp
+         Utility.cpp
+     1>d:\project\ocr\idrec\idrec\utility.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\ocr\IdRec\\bin\IdRec.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Project\Common\tesseract-3.02.02\lib" /LIBPATH:"D:\Project\Common\opencv-2.4.8\build\x86\vc12\staticlib" opencv_core248d.lib opencv_features2d248d.lib opencv_imgproc248d.lib opencv_ml248d.lib opencv_objdetect248d.lib opencv_highgui248d.lib opencv_nonfree248d.lib opencv_flann248d.lib vfw32.lib comctl32.lib zlibd.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project\ocr\IdRec\\bin\IdRec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\ocr\IdRec\\bin\IdRec.lib" /MACHINE:X86 Debug\IdOcr.obj
+         Debug\IdPrepare.obj
+         Debug\IdRec.obj
+         Debug\stdafx.obj
+         Debug\Utility.obj
+         IdRec.vcxproj -> D:\Project\ocr\IdRec\\bin\IdRec.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\IdRec.tlog\unsuccessfulbuild".
+         Touching "Debug\IdRec.tlog\IdRec.lastbuildstate".
+     1>Done Building Project "D:\Project\ocr\IdRec\IdRec\IdRec.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59
